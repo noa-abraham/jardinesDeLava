@@ -8507,12 +8507,12 @@
     
     .welcome_left h4 {
         color: rgb(240, 232, 232);
-        font-size: 1.4em;
+        font-size: 1.2em;
         border-left: 3px solid #5f2d83;
         padding-left: 1em;
         margin: 0 0 1em;
-        line-height: 1.6em;
-        letter-spacing: 1px;
+        line-height: 0 em;
+        letter-spacing: 0 px;
     }
     /*-- //FIN welcome --*/
 
