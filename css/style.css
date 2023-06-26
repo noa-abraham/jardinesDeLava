@@ -5461,10 +5461,7 @@
     
    body {
         font-family: "Lora", serif;
-        background: linear-gradient( #e2033a, #d7788f);
-           
-           
-          
+       background-image: radial-gradient(circle at 100% 0%, #ff9400 0, #ff811e 10%, #ff6c31 20%, #ff553d 30%, #ff3c45 40%, #f11e49 50%, #d8004b 60%, #c1004d 70%, #ac004f 80%, #9a0052 90%, #890055 100%); 
         font-size: 16px;
         line-height: 1.6;
         /*ESTABA EN 1.8, AFECTA AL INTERLINEADO DE TODAS LAS ETIQUETAS P*/
