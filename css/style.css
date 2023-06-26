@@ -5461,7 +5461,10 @@
     
    body {
         font-family: "Lora", serif;
-        background: #e2033a;
+        background: linear-gradient( #e2033a, #d7788f);
+           
+           
+          
         font-size: 16px;
         line-height: 1.6;
         /*ESTABA EN 1.8, AFECTA AL INTERLINEADO DE TODAS LAS ETIQUETAS P*/
