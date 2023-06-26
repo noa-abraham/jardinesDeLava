@@ -5461,7 +5461,7 @@
     
    body {
         font-family: "Lora", serif;
-       background-image: radial-gradient(circle at 100% 0%, #ff9400 0, #ff811e 10%, #ff6c31 20%, #ff553d 30%, #ff3c45 40%, #f11e49 50%, #d8004b 60%, #c1004d 70%, #ac004f 80%, #9a0052 90%, #890055 100%); 
+       background-image: radial-gradient(circle at 50% 120.71%, #ef9c2f 0, #f79031 7.14%, #fd8336 14.29%, #ff753b 21.43%, #ff6441 28.57%, #ff5048 35.71%, #ff3650 42.86%, #ff0058 50%, #f90061 57.14%, #f2006d 64.29%, #e9007a 71.43%, #dd0088 78.57%, #cf0097 85.71%, #bd00a7 92.86%, #a700b7 100%);
         font-size: 16px;
         line-height: 1.6;
         /*ESTABA EN 1.8, AFECTA AL INTERLINEADO DE TODAS LAS ETIQUETAS P*/
