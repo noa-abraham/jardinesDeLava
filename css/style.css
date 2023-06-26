@@ -5469,7 +5469,7 @@
         line-height: 1.6;
         /*ESTABA EN 1.8, AFECTA AL INTERLINEADO DE TODAS LAS ETIQUETAS P*/
         font-weight: 400;
-        color: white;
+        color: #100f0f; 
     }
     
     body.menu-show {
