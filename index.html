@@ -464,7 +464,6 @@
     <!-- CTA
     ================================================== -->
     <section class="s-cta ss-dark">
-
         <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
                 <h2 class="section-desc">
@@ -472,10 +471,6 @@
                 </h2>
             </div>
         </div> <!-- end heading-block -->
-
-       
-        </div> <!-- end ad-content -->
-
     </section> <!-- end s-cta -->
 
 
@@ -620,14 +615,16 @@
                 </div> <!-- end testimonials__slide -->
 
                 <div class="testimonials__slide">
-                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                        Quasi voluptas eius distinctio. Atque eos maxime.</p>
+                    <p>EBeauty's where you find it
+                        Not just where you bump and grind it
+                        Soul is in the musical
+                        That's where I feel so beautiful
+                        </p>
                     <div class="testimonials__info">
                         <img src="images/2.png" alt="Author image" class="testimonials__avatar">
                         <cite class="testimonials__cite">
-                            <strong>Marquez de Sade</strong>
-                            <span>La filosofia en el tocador</span>
+                            <strong>Madonna</strong>
+                            <span>Vogue</span>
                         </cite>
                     </div>
                 </div> <!-- end testimonials__slide -->
@@ -737,7 +734,7 @@
     </section> <!-- end s-contact -->
 
 
-    <!-- footer
+    <!-- script parallax bases y condiciones
     ================================================== -->
    
     <script>
@@ -748,6 +745,20 @@
         });
     </script>
 
+    <!-- script parallax portada
+    ================================================== -->
+<script>// Obtén la referencia a la sección "intro" por su clase
+    const introSection = document.querySelector('.s-intro');
+    
+    // Agrega un evento de desplazamiento para la paralaje
+    window.addEventListener('scroll', function() {
+        // Calcula la posición vertical de desplazamiento
+        const scrollPosition = window.scrollY;
+    
+        // Aplica la posición de fondo de acuerdo con el desplazamiento
+        introSection.style.backgroundPositionY = -scrollPosition * 0.5 + 'px';
+    });
+    </script>
   
 
     <!-- Java Script

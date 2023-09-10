@@ -74,7 +74,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: 1.882;
-    color: #000000;
+    color: #ffffff;
     margin: 0;
     padding: 0;
   }
@@ -108,7 +108,7 @@
     font-family: "Frank Ruhl Libre", serif;
     font-weight: 500;
     font-style: normal;
-    color: #000000;
+    color: #ffffff;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
   }
@@ -1515,14 +1515,14 @@
   font-family: 'Parisienne', cursive;
   
   }
-  
+
   .item-title {
     font-family: "Frank Ruhl Libre", serif;
     font-size: 3.6rem;
     font-weight: 500;
     line-height: 1.222;
     margin-top: 0;
-    color: #000000;
+    color: #ffffff;
   }
   
   .ss-dark .section-heading,
@@ -1579,7 +1579,7 @@
     }
   
     .section-desc {
-      font-size: 4rem;
+      font-size: 3rem;
     }
   
   }
@@ -1922,9 +1922,14 @@
     height: 100vh;
     min-height: 792px;
     background-color: #e52d2d;
-    background-image: url(../images/ilus_cuerpos2.jpg)
+    background-image: url(../images/ilus_cuerpos2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    position: relative; /* Añade posición relativa para los elementos internos */
   }
   
+
   .intro-content {
     height: 100%;
     max-width: 1140px;
@@ -2716,6 +2721,8 @@
     border: 0.2rem solid #ffffff;
     color: #000000;
   }
+
+ 
   
   /* ------------------------------------------------------------------- 
    * responsive:
@@ -3056,7 +3063,12 @@
   .s-testimonials {
     padding-top: 18.4rem;
     padding-bottom: 16rem;
-    background-image: url(../images/portadaPurpura.png);
+    background-image: url(../images/globos.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    
   }
   
   .testimonials {
@@ -3382,9 +3394,10 @@
   * responsive:
   * contact
   * ------------------------------------------------------------------- */
-  @media screen and (max-width:1300px) {
+
+  @media screen and (max-width:1500px) {
     .contact-email {
-      font-size: 10rem;
+      font-size: 9.2rem;
     }
   
     .contact-infos {
@@ -3396,10 +3409,13 @@
     }
   
   }
+
+
+  
   
   @media screen and (max-width:1200px) {
     .contact-email {
-      font-size: 9rem;
+      font-size: 7rem;
     }
   
     .contact-infos {
@@ -3410,7 +3426,7 @@
   
   @media screen and (max-width:1024px) {
     .contact-email {
-      font-size: 7.2rem;
+      font-size: 6.2rem;
     }
   
     .contact-infos {
@@ -3433,7 +3449,7 @@
     }
   
     .contact-infos {
-      font-size: 3.6rem;
+      font-size: 3rem;
     }
   
   }
@@ -3667,21 +3683,22 @@
 
 .about-experience {
 
-  
+  padding-top: 19.2rem;
+    padding-bottom: 16rem;
   background-image: url(../images/frutilla.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Fija la imagen de fondo */
-  position: relative; /* Añade posición relativa para los elementos inter
+  position: relative; 
 
 }
 
 .bullet {
-  color: #cf1767; /* Cambia el color de los puntos según tus preferencias */
-  margin-right: 3px; /* Espacio entre el punto y el texto */
+  color: #cf1767; 
+  margin-right: 3px; 
 }
 
 .logo_portada {
-  width: 600px; /* Ajusta el tamaño según tus necesidades */
+  width: 600px; 
   height: auto;
 }
