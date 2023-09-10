@@ -183,8 +183,8 @@
   }
   
   p.lead {
-    font-family: "Lora", serif;
-    font-weight: 300;
+    
+    font-weight: 700;
     font-size: 2.4rem;
     line-height: 1.5;
     margin-bottom: 3.6rem;
@@ -352,6 +352,7 @@
   
   li {
     display: list-item;
+    list-style: none;
   }
   
   ol,
@@ -1460,16 +1461,20 @@
   }
   
   .section-heading {
-    font-family: "Roboto", sans-serif;
+    font-family: "Lora", serif;
     font-weight: 600;
     font-size: 5.7rem;
     line-height: 1.176;
-    text-transform: uppercase;
-    letter-spacing: .5rem;
+    
     margin-top: 0;
     padding-top: 3.2rem;
     margin-bottom: 8rem;
     position: relative;
+  }
+
+  .section-heading span {
+    font-family: 'Parisienne', cursive;
+    color: #cf1767;
   }
   
   .section-heading::before {
@@ -1503,6 +1508,12 @@
     line-height: 1.259;
     letter-spacing: -0.05rem;
     color: #000000;
+  }
+
+  .section-desc span {
+    
+  font-family: 'Parisienne', cursive;
+  
   }
   
   .item-title {
@@ -1547,7 +1558,7 @@
     }
   
     .section-heading {
-      font-size: 2.6rem;
+      font-size: 4.6rem;
       padding-top: 0;
       padding-bottom: 3.2rem;
       text-align: center;
@@ -2275,11 +2286,17 @@
   }
   
   .timeline__icon--work {
-    background-image: url(../images/icons/beso.png);
+    background-image: url(../images/futiconfondo.png);
+    border-radius: 50%;
+    width: 100px; /* Cambia el valor según el ancho deseado */
+    height: 100px; /* Cambia el valor según el alto deseado */
   }
   
   .timeline__icon--education {
-    background-image: url(../images/icons/beso.png);
+    background-image: url(../images/futiconfondo.png);
+    border-radius: 50%;
+    width: 100px; /* Cambia el valor según el ancho deseado */
+    height: 100px; /* Cambia el valor según el alto deseado */
   }
   
   .timeline__block {
@@ -2333,6 +2350,7 @@
     font-weight: 400;
     line-height: 1.333;
     margin-top: 0;
+    color: #cf1767;
   }
   
   /* ------------------------------------------------------------------- 
@@ -2578,7 +2596,7 @@
     content: counter(ctr, decimal-leading-zero) ".";
     counter-increment: ctr;
     margin-bottom: 4.8rem;
-    font-family: "Roboto", sans-serif;
+   font-family: 'Lora', serif;
     font-weight: 300;
     font-size: 8rem;
     line-height: 1;
@@ -3621,3 +3639,49 @@
   
   /*# sourceMappingURL=main.css.map */
   
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 18px; /* Mover el logotipo a la derecha */
+    margin-bottom: -100px;
+}
+
+.logo {
+    width: 135px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 10px; /* Espacio entre los logotipos */
+}
+
+.logo_1 {
+  width: 135px; /* Ajusta el tamaño según tus necesidades */
+}
+
+.logo_2 {
+  width: 191px; /* Ajusta el tamaño según tus necesidades */
+}
+
+
+
+/* sección Bases */
+
+.about-experience {
+
+  
+  background-image: url(../images/frutilla.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  position: relative; /* Añade posición relativa para los elementos inter
+
+}
+
+.bullet {
+  color: #cf1767; /* Cambia el color de los puntos según tus preferencias */
+  margin-right: 3px; /* Espacio entre el punto y el texto */
+}
+
+.logo_portada {
+  width: 600px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+}
