@@ -1923,7 +1923,7 @@
     height: 100vh;
     min-height: 792px;
     background-color: #e52d2d;
-    background-image: url(../images/ilus_cuerpos2.jpg);
+    background-image: url(../images/ilus_cuerpos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fija la imagen de fondo */
@@ -2538,7 +2538,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url(../images/ilus_lenguas2.jpg);
+    background-image: url(../images/ilus_lenguas.jpg);
     color: rgba(255, 255, 255, 0.7);
     position: relative;
   }
@@ -2685,12 +2685,18 @@
     padding-top: 13.5rem;
     padding-bottom: 13.6rem;
     background-color: #ff0054;
-    
     border-top: 1px solid rgba(255, 255, 255, 0.03);
     font-size: 2.4rem;
     line-height: 1.833;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+
+     background-image: url(../images/ilus_frutilla.jpg);
+  background-size: contain; /* Ajusta el tamaño de la imagen para que quepa en la sección */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  background-position: center; /* Centra la imagen en la sección */
+  position: relative;
   }
   
   .s-cta a {
@@ -3065,7 +3071,7 @@
   .s-testimonials {
     padding-top: 18.4rem;
     padding-bottom: 16rem;
-    background-image: url(../images/globos.jpeg);
+    background-image: url(../images/ilus_manoylibro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -3687,7 +3693,7 @@
 
   padding-top: 19.2rem;
     padding-bottom: 16rem;
-  background-image: url(../images/frutilla.jpeg);
+  background-image: url(../images/ilus_frutilla.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Fija la imagen de fondo */
@@ -3704,5 +3710,9 @@
   width: 600px; 
   height: auto;
 }
+
+
+
+
 
 
